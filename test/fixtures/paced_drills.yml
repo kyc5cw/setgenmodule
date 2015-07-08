@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  practice_id: 
+  drill_id: 
+  pace: MyString
+  pacing: MyString
+  order: 9.99
+  group: MyString
+
+two:
+  practice_id: 
+  drill_id: 
+  pace: MyString
+  pacing: MyString
+  order: 9.99
+  group: MyString
