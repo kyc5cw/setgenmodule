@@ -1,0 +1,8 @@
+<% @drills.each do |d| %>
+	<%= link_to d.name, drill_path(d) %>
+	<%= d.distance %>
+	<%= d.unit %>
+	</br>
+<% end %>
+
+<%= link_to "new", new_drill_path %>

@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   
   root 'landings#index'
 
-  resource :drills
-  
+  resources :drills
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
