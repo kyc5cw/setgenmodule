@@ -1,5 +1,4 @@
 class Drill < ActiveRecord::Base
-  belongs_to :practice
   has_many :paced_drills
-  has_many :practices
+  has_many :practices, through: :paced_drills
 end
