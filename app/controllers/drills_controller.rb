@@ -13,7 +13,7 @@ class DrillsController < ApplicationController
 
     	respond_to do |format|
       		if @drill.save
-        		format.html { redirect_to @drill, notice: 'Group was successfully created.' }
+        		format.html { redirect_to @drill, notice: 'Drill was successfully created.' }
         		format.json { render :show, status: :created, location: @drill }
       		else
         		format.html { render :new }

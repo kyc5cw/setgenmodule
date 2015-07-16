@@ -1,0 +1,19 @@
+<%- model_class = Practice -%>
+
+<%= form_for @Practice, :html => { :class => 'form-horizontal form-model' } do |f| %>
+  <div class="form-group">
+    <%= f.label :author, :class => 'control-label col-md-2' %>
+    <div class="col-md-3">
+      <%= f.text_field :author, :class => 'text-field form-control' %>
+    </div>
+  </div>
+  <div class="form-group">
+    <%= f.label :notes, :class => 'control-label col-md-2' %>
+    <div class="col-md-3">
+      <%= f.text_field :notes, :class => 'text-field form-control' %>
+    </div>
+  </div>
+<% end %>
+
+
+<%= link_to "index",  practices_path %>
